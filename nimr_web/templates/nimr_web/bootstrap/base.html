@@ -50,6 +50,9 @@
 
 
 
+
+
+
 </script>
 
 
@@ -237,7 +240,16 @@
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="{% url 'nimr_web:home' %}">Home</a></li>
-                                    <li><a href="{% url 'nimr_web:about' %}">About Us</a></li>
+                                    <li class="dropdown"><a href="#">About Us</a>
+                                        <ul>
+                                            <li><a href="{% url 'nimr_web:about' %}">Who we are</a>
+                                            <li><a href="{% url 'nimr_web:about' %}">What we do</a>
+                                            <li><a href="{% url 'nimr_web:about' %}">Our Team</a>
+                                            <li><a href="{% url 'nimr_web:about' %}">Our Partners</a>
+                                        </ul>
+                                    </li>
+                                    <li><a href="{% url 'nimr_web:about' %}">About Us</a>
+                                    <li><a href="{% url 'nimr_web:team' %}">Our Team</a></li>
                                     <li class="dropdown"><a href="#">Our Services</a>
                                         <ul>
                                             <li><a href="{% url 'nimr_web:finance' %}">Research & Project Management</a>
@@ -274,7 +286,6 @@
                                             <li><a href="#' %}">Presentation</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{% url 'nimr_web:team' %}">Our Team</a></li>
                                     <li><a href="{% url 'nimr_web:contact' %}">Contact Us</a></li>
                                 </ul>
                             </div>
