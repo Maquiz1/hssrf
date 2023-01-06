@@ -9,5 +9,13 @@ from .dp_research_view import DPResearchView
 from .dp_pmu_view import DPPmuView
 from .dp_monitoring_view import DPMonitoringView
 from .dp_lab_view import DPLabView
+from .dp_data_analysis_view import DPDataAnalysis
+from .dp_plain_languaje_view import DPPlainLanguageView
+from .dp_publication_services_view import DPPublicationServicesView
+from .dp_scientific_services_view import DPScientificServicesView
+from .dp_transcription_translation_view import DPTranscriptionTranslationView
 from .publications_view import PublicationView
 from .download_view import DownloadView
+from .services import *
+from .about import *
+

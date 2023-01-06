@@ -1,11 +1,11 @@
 |actions|
 
-NIMR-MUHIMBILI WEBSITE
+HSSRF WEBSITE
 --------
 
-NIMR-MUHIMBILI Centre Website
+HSSRF Website
 
-.. |actions| image:: https://github.com/frdrckaman/nimr-muhimbili/actions/workflows/build.yml/badge
+.. |actions| image:: https://github.com/Maquiz1/hssrf/actions/workflows/build.yml/badge
 .svg?branch=develop
-  :target: https://github.com/frdrckaman/nimr-muhimbili/actions/workflows/build.yml
+  :target: https://github.com/Maquiz1/hssrf/actions/workflows/build.yml
 

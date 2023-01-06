@@ -31,7 +31,7 @@ DEBUG = env("DJANGO_DEBUG")
 
 DEBUG_TOOLBAR = env("DEBUG_TOOLBAR")
 
-ALLOWED_HOSTS = ["muhimbili.nimr.or.tz", "localhost"]
+ALLOWED_HOSTS = ["hssrf.or.tz", "localhost", "127.0.0.1"]
 
 
 # Application definition
